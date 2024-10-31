@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="content">
+          <img src="ToDo (1).png" alt="img" />
+          <div class="nav-text">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-header">
+        <div class="container">
+          <div class="content-main">
+            <h1>Simple ToDo App</h1>
+            <p>This todo app for test design.</p>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="input">
+            <input id="input" type="text" placeholder="Write Text here . . ." />
+            <button onclick="addTask" id="btn">+ Add New</button>
+          </div>
+          <div id="todo-list" class="todo-list">
+            <!-- <div class="todo-item">
+              <p>Hello this is my first Todo.</p>
+              <img src="close btn.png" alt="close" />
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <div class="container last-P">
+        <p>Total List : <span id="tasks-count">0</span></p>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
